@@ -6,10 +6,9 @@
         <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
         <meta name="author" content="Coderthemes">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        
-        <link rel="shortcut icon" href="{{ asset('admin/assets/images/favicon.ico') }}">
+        <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}">
 
-        <title></title>
+        <title>ISP</title>
 
         <!--Fontawesome CSS -->
 		<link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
@@ -58,7 +57,7 @@
 
                 <!-- LOGO -->
                 <div class="topbar-left">
-                    <a href="index.html" class="logo"><span>Admin<span>to</span></span><i class="mdi mdi-layers"></i></a>
+                    <a href="index.html" class="logo"><span>ISP<span>NET</span></span><i class="mdi mdi-layers"></i></a>
                 </div>
 
                 <!-- Button mobile view to collapse sidebar menu -->
@@ -217,7 +216,7 @@
                 </div> <!-- content -->
 
                 <footer class="footer text-right">
-                    2016 - 2018 © Adminto. Coderthemes.com
+                    {{ now()->year }} © webhifzur
                 </footer>
 
             </div>

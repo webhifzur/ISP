@@ -8,7 +8,7 @@
 
         <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}">
 
-        <title>Adminto - Responsive Admin Dashboard Template</title>
+        <title>ISP</title>
 
         <!-- App css -->
         <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />

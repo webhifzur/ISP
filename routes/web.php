@@ -27,10 +27,6 @@ use Illuminate\Support\Facades\Auth;
 
 
 // User Dashboard 
-
-
-
-
 Route::get('/', [DashboardController::class, 'welcome'])->name('welcome');
 
 
